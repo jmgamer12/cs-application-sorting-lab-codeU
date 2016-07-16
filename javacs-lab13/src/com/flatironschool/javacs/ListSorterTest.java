@@ -30,7 +30,7 @@ public class ListSorterTest {
 	public void setUp() throws Exception {
 
 		comparator = new Comparator<Integer>() {
-			@Override
+			
 			public int compare(Integer n, Integer m) {
 				return n.compareTo(m);
 			}
